@@ -4,6 +4,7 @@ from forms.user import RegisterForm, LoginForm
 from forms.news import NewsForm
 from data.news import News
 from data.users import User
+from data.jobs import Jobs
 from data import db_session
 
 app = Flask(__name__)
